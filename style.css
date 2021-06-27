@@ -33,8 +33,10 @@ header h1 span{
 }
 header nav{
     position: fixed;
-    top: 20px;
-    margin: 0 10px 0 10px;
+    top: 0px;
+    margin: 0 0px 0 0px;
+    background-color: white;
+    margin-top:0 ;
 }
 header nav ul{
     display: flex;
