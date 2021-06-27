@@ -1,1 +1,140 @@
-/*  Add your styling here */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: ;
+    height: 450px;
+    background-image: url("/sara-julie-AL87wdBqPuE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+     color:white;
+    flex-direction: column;
+    line-height: 1.7;
+    position: relative;
+    
+
+} header h1{
+    padding-top: 20px;
+    
+    font-size: 25px;
+    text-transform: uppercase;
+}
+header h1 span{
+    display: block;
+    transition: ease-in-out;
+    animation-delay: 4000ms;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4000ms;
+    font-size: ;
+}
+header nav{
+    position: fixed;
+    top: 20px;
+    margin: 0 10px 0 10px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+header nav ul li{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+header nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: pink;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    
+}
+ nav ul li a:hover{
+    color: black;
+    transition: ease-in-out;
+    transition-duration: -1;
+    font-size: larger;
+}
+.wrap{
+    display: grid;
+    
+}
+aside{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: pink;
+    
+}
+.sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    background-color: pink;
+}
+.cakes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cakep{
+    text-align: center;
+    border: 1px solid pink;
+    margin: 10px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cakeh3{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+
+}
+.cakeim{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 540px) {
+    .cakes{
+        display: flex;
+        flex-direction: row;
+    }
+    .sec1{
+        display: flex;
+    }
+    
+}
+@media only screen and ( min-width: 900px){
+   
+    .sec1{
+        padding: 40px;
+    }
+    .cakes{
+        display: flex;
+        flex-direction: row;
+    }
+        
+    }
+}
+
+
+    
+
+}
+
